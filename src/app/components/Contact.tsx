@@ -75,7 +75,7 @@ export function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      content: "(416) 477-8836",
+      content: "(416)-477-8836",
       link: "tel:+1-416-477-8836",
     },
     {

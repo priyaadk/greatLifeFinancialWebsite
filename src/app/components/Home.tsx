@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { ImageWithFallback } from "./figma/ImageWithFallback.js";
 import { Heart, PiggyBank, Plane, ArrowRight, Target, Lightbulb, HandshakeIcon, Phone } from "lucide-react";
 import founderHero from "@/assets/founder-hero.jpg";
 
@@ -245,11 +245,11 @@ export function Home() {
               <ArrowRight className="size-5" />
             </Link>
             <a
-              href="tel:+1234567890"
+              href="tel:+(416)-477-8836"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-full hover:bg-white/10 transition-all font-semibold"
             >
               <Phone className="size-5" />
-              (123) 456-7890
+              (416)-477-8836
             </a>
           </div>
         </div>
